@@ -1,0 +1,18 @@
+.text{
+    padding-left: 15px;
+}
+
+.about{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    border: solid 1px green;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.about:hover{
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    background-color: green;
+}
+

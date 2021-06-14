@@ -1,0 +1,11 @@
+.aboutText{
+    background-color: rgba(173, 216, 230, 0.507);
+    border-radius: 15px;
+    margin: 2em;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+.aboutText h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2;
+}

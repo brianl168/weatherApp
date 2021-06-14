@@ -1,0 +1,30 @@
+.search{
+    display: grid;
+    justify-content: center;
+}
+
+.searchfunction{
+    background-color: rgba(128, 128, 128, 0);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.busqueda{
+    border-radius: 5px;
+    border: solid 2px rgb(92, 92, 92);
+    position: relative;
+    right: 5px;
+}
+
+.boton{
+    background: none;
+    color: green;
+    border: solid 2px green;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    background-color: green;
+}

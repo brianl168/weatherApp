@@ -1,0 +1,63 @@
+.card{
+    border: solid 3px rgba(148, 148, 148, 0.555);
+    display: grid;
+    max-width: 350px;
+    border-radius: 5px;
+    background-color: rgba(107, 197, 202, 0.89);
+    box-shadow: 5px 5px rgba(31, 31, 31, 0.493);
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.head h2{
+    color: rgb(30, 112, 206);
+    text-shadow: 3px 3px black
+}
+
+.head h2:hover{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.temperature{
+    display: flex;
+    position: relative;
+    bottom: 6px;
+}
+
+.data{
+    padding: 0 2rem;
+    font-family: cursive;
+    justify-content: space-between;
+    position: relative;
+    top: 20px
+}
+
+
+h2{
+    padding: 0 2rem 0 0;
+    font-family: fantasy
+}
+
+.boton{
+    border: solid 1px black;
+    max-height: 72%;
+    font-size: small;
+    position: relative;
+    top: 3px;
+    box-shadow: 3px 3px gray;
+  }
+
+.ico{
+    justify-content: space-between;
+    border: solid 2px rgb(2, 112, 112);
+    border-radius: 4px;
+    box-shadow: 6px 4px teal;
+}
+
+.ico:hover{
+    background-color: rgba(69, 139, 143, 0.623);
+}

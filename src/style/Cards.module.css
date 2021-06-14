@@ -1,0 +1,28 @@
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    row-gap: 2em;
+    background-color: rgba(173, 216, 230, 0.507);
+    border-radius: 15px;
+    margin: 2em;
+    min-height: 200px
+}
+
+@media screen and (max-width: 1300px) {
+    .cards{
+        grid-template-columns: auto;
+    }
+}
+
+.noCards{
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    row-gap: 2em;
+    background-color: rgba(173, 216, 230, 0.507);
+    border-radius: 15px;
+    margin: 2em;
+}
